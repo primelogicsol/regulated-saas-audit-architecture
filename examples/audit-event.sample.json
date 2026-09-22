@@ -1,0 +1,23 @@
+{
+  "audit_event_id": "AUD-2026-0001",
+  "timestamp": "2026-09-22T13:00:00Z",
+  "actor": {
+    "user_id": "demo_user_001",
+    "role": "compliance_reviewer"
+  },
+  "action": {
+    "type": "approval_status_changed",
+    "target_object": "permit_submission",
+    "target_id": "SUB-2026-001"
+  },
+  "change_summary": {
+    "previous_status": "draft",
+    "new_status": "ready_for_review",
+    "reason": "Required evidence attached and checklist completed."
+  },
+  "evidence": {
+    "evidence_record_id": "EV-2026-001",
+    "evidence_attached": true
+  },
+  "notice": "Fictional demonstration data only."
+}
